@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.Random;
 
 public class FileUtil 
-{ 
+{   
 	private static Random r = new Random(System.currentTimeMillis());
 	public static boolean copyFile(File file, String ToFileName)
 	{
